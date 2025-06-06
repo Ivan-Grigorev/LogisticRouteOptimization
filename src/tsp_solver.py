@@ -74,13 +74,6 @@ def save_tsp():
         distance_matrix_miles = df.values.tolist()
         city_names = df.index.tolist()
 
-        # distance_matrix_miles = pd.read_csv('../data/distance_matrix.csv').values.tolist()
-        # city_names = pd.read_csv('../data/illinois_cities.csv')['city'].values.tolist()
-        # print(distance_matrix_miles)
-        # print(city_names)
-        # print("Matrix shape:", len(distance_matrix_miles), "x", len(distance_matrix_miles[0]))
-        # print("City names count:", len(city_names))
-
         result = solve_tsp(distance_matrix_miles, city_names)
 
         if result:
