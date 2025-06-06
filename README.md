@@ -93,18 +93,6 @@ This project currently focuses on major cities in **Illinois**, including:
 
 ---
 
-## 💡 Roadmap
-
-* [x] Load and clean city data
-* [x] Generate and save road network
-* [x] Match cities to road nodes
-* [ ] Compute distance matrix
-* [ ] Optimize delivery routes with OR-Tools
-* [ ] Visualize final routes on interactive map
-* [ ] Expand to other states like Michigan or New York
-
----
-
 ## License
 
 This project is licensed under the terms of the [LICENSE](./LICENSE).
