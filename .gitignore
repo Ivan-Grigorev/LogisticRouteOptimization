@@ -182,3 +182,6 @@ cython_debug/
 
 # Ignore macOS-specific system files
 .DS_Store
+
+# Ignore data folder to prevent tracking generated datasets
+data/
