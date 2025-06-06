@@ -19,7 +19,7 @@ This project aims to minimize delivery time and fuel consumption by solving rout
 
 ## Technologies Used
 
-* Python 3.12+
+* Python 3.13+
 * [pandas](https://pandas.pydata.org/)
 * [geopandas](https://geopandas.org/)
 * [osmnx](https://github.com/gboeing/osmnx)
@@ -35,17 +35,20 @@ This project aims to minimize delivery time and fuel consumption by solving rout
 LogisticRouteOptimization/
 │
 ├── data/
+│   ├── distance_matrix.csv
 │   ├── illinois_cities.csv
-│   └── illinois_graph.graphml
+│   ├── illinois_graph.graphml
+│   └── tsp_result.json
 │
 ├── notebooks/
 │   └── routes_analysis.ipynb
 │
 ├── src/
 │   ├── __init__.py
-│   ├── cities_dadatset_generator.py
+│   ├── cities_dataset_generator.py
 │   ├── graphml_generator.py
-│   └── logging_config.py
+│   ├── logging_config.py
+│   └── tsp_solver.py
 │
 ├── output/
 ├── .gitattributes
