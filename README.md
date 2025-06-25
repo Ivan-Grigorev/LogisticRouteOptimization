@@ -40,6 +40,9 @@ LogisticRouteOptimization/
 │   ├── illinois_graph.graphml
 │   └── tsp_result.json
 │
+├── images/
+│   └── tsp_illinois_route.png
+│
 ├── notebooks/
 │   └── routes_analysis.ipynb
 │
