@@ -96,6 +96,13 @@ This project currently focuses on major cities in **Illinois**, including:
 
 ---
 
+## Optimal Route Map
+Here is the TSP-optimized delivery route between major cities in Illinois:
+
+![TSP Route Map](./images/tsp_illinois_route.png)
+
+---
+
 ## License
 
 This project is licensed under the terms of the [LICENSE](./LICENSE).
